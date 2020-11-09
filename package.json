@@ -8,6 +8,9 @@
     "email": "dev@synth3.tk",
     "url": "https://synth3.tk"
   },
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
   "files": [
     "dashboard",
     "graphics",
@@ -30,5 +33,10 @@
       }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }
