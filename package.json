@@ -9,6 +9,7 @@
     "url": "https://synth3.tk"
   },
   "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.js",
     "pretest": "eslint --ignore-path .gitignore ."
   },
   "files": [
@@ -34,9 +35,26 @@
     ]
   },
   "license": "MIT",
+  "engines": {
+    "yarn": ">= 1.0.0"
+  },
   "dependencies": {
+    "@bower_components/vue": "vuejs/vue#^2.6.12",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.1",
     "eslint": "^7.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify": "^2.3.16",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
   }
 }
