@@ -27,7 +27,7 @@
       {
         "name": "toaster-config",
         "title": "Toaster Config",
-        "width": 2,
+        "width": 6,
         "file": "toaster-config.html",
         "headerColor": "#525F78"
       }
