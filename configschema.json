@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"delaySeconds": {
+			"type": "integer",
+			"default": 60,
+			"description": "How long (in seconds) to wait until showing the next toast"
+    },
+		"holdSeconds": {
+			"type": "integer",
+			"default": 5,
+			"description": "How long (in seconds) to display a toast"
+    }
+	}
+}
