@@ -23,6 +23,18 @@
     "nodecg-bundle"
   ],
   "nodecg": {
+    "assetCategories": [
+      {
+        "name": "toasticons",
+        "title": "Toast Icons",
+        "allowedTypes": [
+          "jpg",
+          "jpeg",
+          "gif",
+          "png"
+        ]
+      }
+    ],
     "compatibleRange": "^1.6.0",
     "dashboardPanels": [
       {
