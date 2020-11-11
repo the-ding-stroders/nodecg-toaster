@@ -1,6 +1,6 @@
 {
   "name": "nodecg-toaster",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A rotating list of social/contact information for your stream",
   "homepage": "https://thedingstroders.com",
   "author": {
@@ -42,7 +42,8 @@
         "title": "Toaster Config",
         "width": 6,
         "file": "toaster-config.html",
-        "headerColor": "#525F78"
+        "headerColor": "#525F78",
+        "workspace": "Setup"
       }
     ]
   },
